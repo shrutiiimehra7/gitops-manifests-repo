@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: angular-frontend
-          image: angular-frontend:local
+          image: 10.101.229.134:80/angular-frontend:v1
           imagePullPolicy: Never
           ports:
             - containerPort: 80
