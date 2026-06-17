@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: python-service
-          image: python-service:local
+          image: 10.101.229.134:80/python-service:v1
           imagePullPolicy: Never        # use local Minikube image, don't pull from registry
           ports:
             - containerPort: 8000
