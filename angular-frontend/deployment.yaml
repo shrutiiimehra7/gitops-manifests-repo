@@ -18,7 +18,7 @@ spec:
       containers:
         - name: angular-frontend
           image: 10.101.229.134:80/angular-frontend:v1
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
           livenessProbe:

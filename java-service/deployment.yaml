@@ -18,7 +18,7 @@ spec:
       containers:
         - name: java-service
           image: 10.101.229.134:80/java-service:v1
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
           livenessProbe:
