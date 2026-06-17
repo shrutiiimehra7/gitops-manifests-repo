@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: java-service
-          image: java-service:local
+          image: 10.101.229.134:80/java-service:v1
           imagePullPolicy: Never
           ports:
             - containerPort: 8080
